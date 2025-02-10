@@ -1,0 +1,29 @@
+name: Update Readme
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python をセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Readme.md を生成
+        run: python generate_readme.py
+
+      - name: 変更をコミット＆プッシュ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Readme.md
+          git commit -m "Update Readme.md" || exit 0
+          git push
