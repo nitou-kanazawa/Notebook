@@ -16,8 +16,9 @@ def get_markdown_files(root):
 def generate_readme():
     """ README.md を生成する """
     md_files = get_markdown_files(ROOT_DIR)
-    content = "# 記事一覧\n\n"
+    content = "Page: \n     https://nitou-kanazawa.github.io/Notebook/\n\n"
 
+    content += "## 記事一覧\n\n"
     category_map = {}
     for path in md_files:
         category, filename = os.path.split(path)
@@ -26,7 +27,7 @@ def generate_readme():
         category_map[category].append((filename, path))
 
     for category, files in sorted(category_map.items()):
-        content += f"## {category}\n"
+        content += f"### {category}\n"
         for filename, path in sorted(files):
             content += f"- [{filename}]({path})\n"
         content += "\n"
