@@ -14,7 +14,7 @@ def get_markdown_files(root):
     return md_files
 
 def generate_readme():
-    """ Readme.md を生成する """
+    """ README.md を生成する """
     md_files = get_markdown_files(ROOT_DIR)
     content = "# 記事一覧\n\n"
 
@@ -31,7 +31,7 @@ def generate_readme():
             content += f"- [{filename}]({path})\n"
         content += "\n"
 
-    with open("Readme.md", "w", encoding="utf-8") as f:
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
 
 if __name__ == "__main__":
