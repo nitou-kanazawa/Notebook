@@ -14,5 +14,7 @@ Page:
 - [20250209_csharp_例外処理.md](Articles/202502/20250209_csharp_例外処理.md)
 - [20250211_git_GitHubActionsで使用できるイベント.md](Articles/202502/20250211_git_GitHubActionsで使用できるイベント.md)
 - [20250211_git_GitHubActionsの概要.md](Articles/202502/20250211_git_GitHubActionsの概要.md)
+- [20250212_.NET_.NET.md](Articles/202502/20250212_.NET_.NET.md)
 - [20250212_csharp_initキーワード.md](Articles/202502/20250212_csharp_initキーワード.md)
+- [20250212_csharp_record型に関するメモ.md](Articles/202502/20250212_csharp_record型に関するメモ.md)
 
