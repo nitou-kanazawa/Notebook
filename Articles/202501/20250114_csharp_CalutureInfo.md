@@ -1,5 +1,5 @@
 ﻿---
-title: "【C#】 CalutureInfo"
+title: 【C#】 CalutureInfo
 tags:
   - C#
   - Localize

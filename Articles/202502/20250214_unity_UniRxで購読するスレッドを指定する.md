@@ -3,35 +3,36 @@ title: 【Unity】 UniRxで購読するスレッドを指定する
 tags:
   - Unity
   - UniRx
-updated_at: ''
+updated_at: ""
 id: 523238d0-4834-4046-b140-0439d040b7c5
 ---
+
 ## 概要
 
-UnityのAPIはメインスレッド上でしか呼び出せないという制限がある．（UnityAPIがスレッドセーフな実装ではないため）
+Unity の API はメインスレッド上でしか呼び出せないという制限がある．（UnityAPI がスレッドセーフな実装ではないため）
 
-また、Subscribeに渡した関数は基本的にIObserver.OnNextを実行したスレッド上で実行される．
+また、Subscribe に渡した関数は基本的に IObserver.OnNext を実行したスレッド上で実行される．
 
-## UniRxで指定できるスケジューラー
+## UniRx で指定できるスケジューラー
 
-| **スケジューラー名**           | **説明**                                 |
-|-----------------------------|-------------------------------------------------------------------------------------------------|
-| `Scheduler.CurrentThread`    | 現在のスレッドで処理を行う．同期的に実行されるため、再帰的な処理がある場合は注意が必要．               |
-| `Scheduler.Immediate`        | スケジューリングせず、すぐに実行する．スレッドの切り替えが不要で、低オーバーヘッド．                   |
-| `Scheduler.MainThread`       | Unityのメインスレッドで処理を実行．UnityのオブジェクトやUIの操作を行う際に使用．                      |
-| `Scheduler.MainThreadEndOfFrame` | Unityのフレーム終了時に処理を実行する．描画後の処理を行いたい場合に有効．                         |
-| `Scheduler.ThreadPool`       | スレッドプールで非同期的に実行．並列処理に適しているが、Unityのメインスレッドに依存する操作は不可．     |
-| `Scheduler.MainThreadFixedUpdate` | Unityの`FixedUpdate`で処理を実行．物理演算や一定間隔の処理に利用．                             |
-| `Scheduler.MainThreadUpdate` | Unityの`Update`メソッド内で実行する．フレームごとに処理を行いたい場合に使用．                        |
+| **スケジューラー名**              | **説明**                                                                                             |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `Scheduler.CurrentThread`         | 現在のスレッドで処理を行う．同期的に実行されるため、再帰的な処理がある場合は注意が必要．             |
+| `Scheduler.Immediate`             | スケジューリングせず、すぐに実行する．スレッドの切り替えが不要で、低オーバーヘッド．                 |
+| `Scheduler.MainThread`            | Unity のメインスレッドで処理を実行．Unity のオブジェクトや UI の操作を行う際に使用．                 |
+| `Scheduler.MainThreadEndOfFrame`  | Unity のフレーム終了時に処理を実行する．描画後の処理を行いたい場合に有効．                           |
+| `Scheduler.ThreadPool`            | スレッドプールで非同期的に実行．並列処理に適しているが、Unity のメインスレッドに依存する操作は不可． |
+| `Scheduler.MainThreadFixedUpdate` | Unity の`FixedUpdate`で処理を実行．物理演算や一定間隔の処理に利用．                                  |
+| `Scheduler.MainThreadUpdate`      | Unity の`Update`メソッド内で実行する．フレームごとに処理を行いたい場合に使用．                       |
 
+#### Immediate と CurrentThread の違い
 
-#### ImmediateとCurrentThreadの違い
-
-`Scheduler.Immediate`と`Scheduler.CurrentThread`はどちらも「現在実行中のスレッド」上で処理を行うSheduler．違いは処理の実行要求があった時にそれを「直ちに処理を実行する」か「一度キューに詰めてから実行する」か．
+`Scheduler.Immediate`と`Scheduler.CurrentThread`はどちらも「現在実行中のスレッド」上で処理を行う Sheduler．違いは処理の実行要求があった時にそれを「直ちに処理を実行する」か「一度キューに詰めてから実行する」か．
 
 <details><summary>Immediate使用時の注意</summary>
 
-余談だが`Repet`オペレータでImmediateを再講読すると無限ループになるらしい．
+余談だが`Repet`オペレータで Immediate を再講読すると無限ループになるらしい．
+
 ```cs
 // 無限ループになる組み合わせ
 Observable.Return(1,Scheduler.Immediate).Repeat().Take(1).Subscribe();
@@ -39,19 +40,20 @@ Observable.Return(1,Scheduler.Immediate).Repeat().Take(1).Subscribe();
 // 正しく停止する
 Observable.Return(1,Scheduler.CurrentThread).Repeat().Take(1).Subscribe();
 ```
+
 </details>
 
 ## ObserveOn
 
-> ObserveOnはメッセージの実行コンテキスト（Scheduler）を切り替えるためのOperatorです。ObserveOn以降のメッセージの処理スレッドをスレッドプールに移したり、逆にメインスレッドへ戻したりといったことができるようになります。
+> ObserveOn はメッセージの実行コンテキスト（Scheduler）を切り替えるための Operator です。ObserveOn 以降のメッセージの処理スレッドをスレッドプールに移したり、逆にメインスレッドへ戻したりといったことができるようになります。
 
 ## SubscribeOn()
 
-> 
+>
 
 ## 参考資料
 
-- [qiita: ObserveOnとSubscribeOn](https://qiita.com/yaegaki/items/3189c799f6b80800c02d)
-- [hatena: async/awaitやUniRxを使って非同期処理の後にメインスレッドで処理を行う](https://bluebirdofoz.hatenablog.com/entry/2020/12/03/232318)
-- [MS: SynchronizationContextクラス](https://learn.microsoft.com/ja-jp/dotnet/api/system.threading.synchronizationcontext?view=net-9.0)
-- [qiita: 「SynchronizationContext」と「Taskのawait」](https://qiita.com/toRisouP/items/a2c1bb1b0c4f73366bc6)
+- [qiita: ObserveOn と SubscribeOn](https://qiita.com/yaegaki/items/3189c799f6b80800c02d)
+- [hatena: async/await や UniRx を使って非同期処理の後にメインスレッドで処理を行う](https://bluebirdofoz.hatenablog.com/entry/2020/12/03/232318)
+- [MS: SynchronizationContext クラス](https://learn.microsoft.com/ja-jp/dotnet/api/system.threading.synchronizationcontext?view=net-9.0)
+- [qiita: 「SynchronizationContext」と「Task の await」](https://qiita.com/toRisouP/items/a2c1bb1b0c4f73366bc6)

@@ -1,4 +1,13 @@
-# GitHub Actions で使用できるイベント
+---
+title: 【GitHub】GitHub Actions で使用できるイベント
+tags:
+  - GitHub
+  - CICD
+updated_at: "2025-01-18T12:23:55+09:00"
+id:
+---
+
+## GitHub イベント一覧
 
 GitHub Actions では、さまざまなイベントをトリガーにしてワークフローを実行できる．以下に主なイベントを列挙する．
 
@@ -8,7 +17,7 @@ GitHub Actions では、さまざまなイベントをトリガーにしてワ�
 - schedule
 - workflow_dispatch
 
-## GitHub イベント一覧
+## イベント詳細
 
 ### push
 
