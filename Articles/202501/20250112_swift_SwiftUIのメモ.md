@@ -10,6 +10,9 @@ id: 5da6af1e7e25e8629d62
 
 ## 概要
 
-https://developer.apple.com/videos/play/wwdc2019/226
 
-https://github.com/mixigroup/ios-swiftui-training/blob/session-3.1/README.md
+## 参考資料
+
+[](https://developer.apple.com/videos/play/wwdc2019/226)
+
+[](https://github.com/mixigroup/ios-swiftui-training/blob/session-3.1/README.md)
