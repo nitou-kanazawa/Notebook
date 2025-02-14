@@ -1,7 +1,7 @@
 ﻿---
-title: "csharp record型に関するメモ"
+title: 【C#】 record型に関するメモ
 tags:
-  - csharp
+  - C#
 updated_at: ""
 id: 90e26aac-e5b7-47ba-93d9-eda36ae7fc10
 ---
@@ -13,11 +13,11 @@ id: 90e26aac-e5b7-47ba-93d9-eda36ae7fc10
 
 #### 使用例
 
-```.cs
+```cs
 public record Person(string FirstName, string LastName);
 ```
 
-```.cs
+```cs
 public record Person {
     public string FirstName { get; init; }
     public string LastName { get; init; }
