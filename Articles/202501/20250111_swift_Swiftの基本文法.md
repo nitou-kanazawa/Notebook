@@ -242,10 +242,3 @@ extension SomeStructure: ProtocolB {
 
 [ss](https://www.youtube.com/watch?v=-CIJkjv8yJA&t=4300s)
 [](https://github.com/mixigroup/ios-swiftui-training/tree/main)
-
-
-## その他
-
-#### ショートカット
-
-- `Command + /` コメントアウト
