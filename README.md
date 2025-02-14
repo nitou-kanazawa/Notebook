@@ -17,4 +17,7 @@ Page:
 - [20250212_.NET_.NET.md](Articles/202502/20250212_.NET_.NET.md)
 - [20250212_csharp_initキーワード.md](Articles/202502/20250212_csharp_initキーワード.md)
 - [20250212_csharp_record型に関するメモ.md](Articles/202502/20250212_csharp_record型に関するメモ.md)
+- [20250214_git_GitHubActionsで静的解析を行う.md](Articles/202502/20250214_git_GitHubActionsで静的解析を行う.md)
+- [20250214_unity_UniRxで購読するスレッドを指定する.md](Articles/202502/20250214_unity_UniRxで購読するスレッドを指定する.md)
+- [20250214_xcode_XCodeのショートカット.md](Articles/202502/20250214_xcode_XCodeのショートカット.md)
 
