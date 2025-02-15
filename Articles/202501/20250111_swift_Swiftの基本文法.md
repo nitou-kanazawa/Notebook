@@ -118,6 +118,8 @@ var decorate: (Int) -> String = { number in
 decorate(100) // "[[100]]"
 ```
 
+
+
 以下のようにクロージャは省略記法が用意されている．
 （特に最後の２つは多言語でみないものに思える）
 
@@ -140,6 +142,13 @@ sortedNames = names.sorted { $0 > $1 }
 // sorted(by:)に大なりオペレータだけを渡す書き方もできる
 sortedNames = names.sorted(by: >)
 ```
+
+#### トレイリングクロージャ
+最後の引数がクロージャだった場合，`()`を省略できる？
+    [TODO] 詳細を確認する
+
+<!-- 基本的に`{...}`という形になる． -->
+
 
 ## 列挙型
 
@@ -191,6 +200,9 @@ class SomeClass {
     // class definition goes here
 }
 ```
+
+#### 型プロパティ
+
 
 ## Protocols
 
