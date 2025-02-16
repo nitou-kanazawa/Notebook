@@ -1,5 +1,5 @@
 ---
-title: 【Swift】SwiftUIに関するメモ
+title: 【Swift】SwiftUIの基本知識
 tags:
   - Swift
   - SwiftUI
