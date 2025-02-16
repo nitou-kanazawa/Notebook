@@ -12,13 +12,22 @@ XCodeを使用する上での基本知識やTipsをメモしておく．
 ****
 ## ショートカット
 
+#### ファイル操作
+- `Command` + `Option` + `n` 新規フォルダ
+- `Command` + `n` 新規ファイル
+
+
+####
+- `Command` + `B` ビルド
+
+#### 
+
 - `Command` + `a` 全選択
 
 - `Command` + `/` 選択行のコメントアウト
 - `Command` + `Delete` 選択行の削除
 
 - `Cntrol` + `i` インデント整形
-
 
 **コードの折り畳み**
 - `Command` + `Option` + `←` 選択セクションの折り畳み
