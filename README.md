@@ -27,4 +27,5 @@ Page:
 - [20250214_git_GitHubActionsで静的解析を行う.md](Articles/202502/20250214_git_GitHubActionsで静的解析を行う.md)
 - [20250214_unity_UniRxで購読するスレッドを指定する.md](Articles/202502/20250214_unity_UniRxで購読するスレッドを指定する.md)
 - [20250214_unity_WebGLプラグイン.md](Articles/202502/20250214_unity_WebGLプラグイン.md)
+- [20250216_swift_NotificationCenterでオブジェクト間の通知を行う.md](Articles/202502/20250216_swift_NotificationCenterでオブジェクト間の通知を行う.md)
 
