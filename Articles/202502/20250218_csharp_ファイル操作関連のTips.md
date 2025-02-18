@@ -1,0 +1,21 @@
+﻿---
+title: 【C#】ファイル操作関連のTips
+tags:
+  - C#
+  - IO
+updated_at: ''
+id: 1a7736c1-41bd-41bb-8540-462045c68de5
+---
+
+##  
+
+##
+
+##
+
+## 参考資料
+
+- [zenn: C#定石 - ファイル一覧 - 照合規則](https://zenn.dev/chai0917/articles/2186a67b5b1a74)
+- []()
+- []()
+
