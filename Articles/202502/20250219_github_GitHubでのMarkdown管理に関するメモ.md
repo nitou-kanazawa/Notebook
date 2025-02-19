@@ -14,6 +14,9 @@ id: 8ca933d5-414b-469b-9333-97bfc0e739df
 ## GitHub Pagesで公開する
 
 
+[GitHub Pages](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages)
+
+
 #### 参考資料
 - [qiita: GitHub PagesにJekyllを使っていい感じのページを作る例](https://qiita.com/stkdev/items/0e2df27736acbea9bd26)
 
