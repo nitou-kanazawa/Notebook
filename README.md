@@ -49,4 +49,5 @@ Page:
 - [20250219_python_Pythonの基礎.md](Articles/202502/20250219_python_Pythonの基礎.md)
 - [20250220_csharp_Blazor.md](Articles/202502/20250220_csharp_Blazor.md)
 - [20250220_csharp_DateTime構造体で日時を扱う.md](Articles/202502/20250220_csharp_DateTime構造体で日時を扱う.md)
+- [20250220_web_WikipediaのAPIwo.md](Articles/202502/20250220_web_WikipediaのAPIwo.md)
 
