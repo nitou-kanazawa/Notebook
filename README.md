@@ -43,8 +43,10 @@ Page:
 - [20250218_csharp_OpenWeatherAPIで天気予報を取得する.md](Articles/202502/20250218_csharp_OpenWeatherAPIで天気予報を取得する.md)
 - [20250218_csharp_ファイル操作関連のTips.md](Articles/202502/20250218_csharp_ファイル操作関連のTips.md)
 - [20250218_swift_列挙型.md](Articles/202502/20250218_swift_列挙型.md)
+- [20250218_web_Httpを理解する(Httpとは).md](Articles/202502/20250218_web_Httpを理解する(Httpとは).md)
 - [20250219_github_GitHubでのMarkdown管理に関するメモ.md](Articles/202502/20250219_github_GitHubでのMarkdown管理に関するメモ.md)
 - [20250219_misc_設定ファイルに関するメモ.md](Articles/202502/20250219_misc_設定ファイルに関するメモ.md)
 - [20250219_python_Pythonの基礎.md](Articles/202502/20250219_python_Pythonの基礎.md)
 - [20250220_csharp_Blazor.md](Articles/202502/20250220_csharp_Blazor.md)
+- [20250220_csharp_DateTime構造体で日時を扱う.md](Articles/202502/20250220_csharp_DateTime構造体で日時を扱う.md)
 
