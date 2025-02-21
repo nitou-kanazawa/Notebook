@@ -9,6 +9,9 @@ Page:
 ### .github
 - [template.md](.github/template.md)
 
+### Articles
+- [2025-02-21-my-first-post.md](Articles/2025-02-21-my-first-post.md)
+
 ### Articles/202407
 - [20240730_unity_GUIで簡単なグラフを表示する.md](Articles/202407/20240730_unity_GUIで簡単なグラフを表示する.md)
 
