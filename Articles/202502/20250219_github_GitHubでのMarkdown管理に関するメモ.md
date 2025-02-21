@@ -13,6 +13,10 @@ id: 8ca933d5-414b-469b-9333-97bfc0e739df
 
 ## GitHub Pagesで公開する
 
+`GitHub Pages`は、GitHubを通じてホストおよび公開されるパブリックWebページである．
+
+`GitHub Pages`は、`GitHub Actions`を使用して`Jekyll`ビルドを実行する．
+
 
 [GitHub Pages](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages)
 
