@@ -28,7 +28,11 @@ Wikimediaの一覧は以下から確認できる
 
 https://tabiji.gallery/development/5547
 
-##
+## 
+
+[LINQ-to-wiki](https://github.com/svick/LINQ-to-Wiki)
+[紹介記事](https://qiita.com/barnacle132/items/8802902ca8977d332882)
+
 
 ## 参考
 
