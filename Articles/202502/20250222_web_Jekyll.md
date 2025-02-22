@@ -9,10 +9,14 @@ id: e3ae5516-8075-4dd0-b368-8819db6ff114
 ---
 
 ## Jekyllとは
-`Jekyll`は`Ruby`で開発されている静的サイトジェネレータ．
+`Jekyll(ジキル)`は`Ruby`で開発されている静的サイトジェネレータ．
 データベースを必要とせず、WordPressのようなコンテンツ管理システムを使用することなく、個人ブログ、ポートフォリオサイト、ドキュメントサイトなど、様々なタイプの静的サイトを構築することが可能．
 
-`GitHub`の共同創業者であるTom Preston-Wernerによって開発され，MITライセンスで配布されたいる．
+`GitHub`の共同創業者であるTom Preston-Wernerによって開発されており，`GitHub Pages`のバックエンドエンジンにも使用されている．
+
+[GitHubリポジトリ](https://github.com/jekyll)
+
+ドットインストールの[Jekyll入門](https://dotinstall.com/lessons/basic_jekyll)を参考に学習した．
 
 ## Jekyllの導入
 `Jekyll`を利用するには，先に`Ruby`をインストールしておく必要がある.
@@ -23,14 +27,17 @@ id: e3ae5516-8075-4dd0-b368-8819db6ff114
 > - `RubyGems` (check your Gems version using gem -v)
 > - `GCC` and `Make` (check versions using gcc -v,g++ -v, and make -v)
 
+<details>
+<summary>インストール手順</summary>
+
 #### 
 Windowsに`Ruby`をインストールするため，[`RubyInstaller`](https://rubyinstaller.org/)を使用する．
 [RubyInstaller Downloads](https://rubyinstaller.org/downloads/)から`Ruby+Devkit`版をダウンロードして，インストール．
 
-
 <img src="{8E1E9F7C-9570-43CB-BC7A-0A306C6BDB81}.png" alt="" width="300">
 <img src="{8C855C44-9583-4961-AA4F-2C61A3338E70}.png" alt="" width="300">
 
+</details>
 
 
 ## JekyllのCLIコマンド
@@ -45,24 +52,53 @@ Windowsに`Ruby`をインストールするため，[`RubyInstaller`](https://ru
 
 詳細は[ドキュメント](https://jekyllrb.com/docs/usage/)を確認
 
+
 ## Jekyllの設定ファイル
 サイト全体の設定は`_config.yml`という名前のYAMLファイルに記述する．
 一般的な設定オプションを以下に示す．
 
 - `title` : サイトのタイトル
 - `description` : サイトの短い説明
-- `url` : サイトのベースURL
 - `baseurl` : （サブディレクトリでホストする場合）サイトのサブディレクトリ
+- `url` : サイトのベースURL
 - `permalink` : 投稿とページのURL構造
 - `exclude` : サイト生成プロセスから除外するファイルまたはディレクトリの一覧
 - `include` : サイト生成プロセスに含めるファイルまたはディレクトリの一覧
 - `paginate` : ページネーション使用時に1ページに表示する投稿の数
 - `plugins` : 読み込むJekyllプラグインの一覧
-  - デフォルトで`minima`に設定される
+- `thema` : デフォルトで`minima`に設定される
   - 各種設定を行うことで，任意の他のテーマを使用することができる
 
+設定ファイルにカスタム変数を作成し、サイトのテンプレート、レイアウト、およびインクルードでそれを使用することができまる．例えば、`author_name`という変数を作成し、テンプレートで`{{ site.author_name }}`のように使用することができます。
 
-## その他
+
+## 静的サイトの作成
+
+以下のコマンドを実行すると静的サイトを作成することができる．
+
+```
+jekyll new my-blog
+```
+
+実行すると以下のディレクトリとファイルが生成される
+
+```
+├── _posts
+├── .gitignore
+├── _config.yml
+├── 404.html
+├── about.markdown
+├── Gemfile.lock
+├── index.md
+└── README.md
+```
+
+
+
+
+
+
+## Tips
 デフォルトでは、Jekyllでは以下に当てはまるファイルやフォルダをビルドしない．
 
 - /node_modules または /vendor フォルダーに配置されている
@@ -92,7 +128,8 @@ title: Blogging Like a Hacker
 
 ## 参考資料
 
+- [wiki: Jekyll](https://ja.wikipedia.org/wiki/Jekyll)
 - [_: Jekyllで静的サイトを構築する方法](https://kinsta.com/jp/blog/jekyll-static-site/)
-- []()
+- [_: Jekyllとはなにか](https://www.codegrid.net/articles/jekyll-1/)
 - []()
 
