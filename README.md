@@ -6,9 +6,6 @@ Page:
 ### .github
 - [template.md](.github/template.md)
 
-### Articles
-- [2025-02-21-my-first-post.md](Articles/2025-02-21-my-first-post.md)
-
 ### Articles/202407
 - [20240730_unity_GUIで簡単なグラフを表示する.md](Articles/202407/20240730_unity_GUIで簡単なグラフを表示する.md)
 
@@ -53,4 +50,6 @@ Page:
 - [20250220_csharp_Blazor.md](Articles/202502/20250220_csharp_Blazor.md)
 - [20250220_csharp_DateTime構造体で日時を扱う.md](Articles/202502/20250220_csharp_DateTime構造体で日時を扱う.md)
 - [20250220_web_WikipediaのAPIwo.md](Articles/202502/20250220_web_WikipediaのAPIwo.md)
+- [20250222_web_Jekyllとは.md](Articles/202502/20250222_web_Jekyllとは.md)
+- [20250222_web_静的サイトジェネレータについて.md](Articles/202502/20250222_web_静的サイトジェネレータについて.md)
 
