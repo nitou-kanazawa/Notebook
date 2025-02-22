@@ -1,5 +1,6 @@
 ﻿---
-title: Jekyll
+# YAML Front Matter
+title: Jekyllとは
 tags:
   - Web
   - Jekyll
@@ -7,6 +8,24 @@ tags:
 updated_at: ''
 id: e3ae5516-8075-4dd0-b368-8819db6ff114
 ---
+
+## 目次 
+- [目次](#目次)
+- [Jekyllとは](#jekyllとは)
+- [Jekyllの導入](#jekyllの導入)
+    - [](#)
+- [JekyllのCLIコマンド](#jekyllのcliコマンド)
+- [Jekyllプロジェクトのディレクトリ構成](#jekyllプロジェクトのディレクトリ構成)
+- [Jekyllの設定ファイル](#jekyllの設定ファイル)
+    - [サイト全体（\_config.yaml）](#サイト全体_configyaml)
+    - [Markdown記事（YAML front matter）](#markdown記事yaml-front-matter)
+- [静的サイトの作成](#静的サイトの作成)
+- [Tips](#tips)
+    - [execulete要素](#execulete要素)
+- [テーマ](#テーマ)
+- [](#-1)
+- [参考資料](#参考資料)
+
 
 ## Jekyllとは
 `Jekyll(ジキル)`は`Ruby`で開発されている静的サイトジェネレータ．
@@ -50,10 +69,24 @@ Windowsに`Ruby`をインストールするため，[`RubyInstaller`](https://ru
 - `jekyll help`：Jekyllのヘルプドキュメントを出力する
 - `jekyll serve` --draft：_draftsディレクトリにあるすべての投稿を含めJekyllサイトを生成
 
+> ![NOTE]
+> プロジェクト毎のgemファイル設定を反映させるには，`bundle exec jekyll serve`のように`bundle exec`を先頭に入れる必要がある？（要確認）
+
 詳細は[ドキュメント](https://jekyllrb.com/docs/usage/)を確認
 
 
+## Jekyllプロジェクトのディレクトリ構成
+
+- `_layouts` : 
+- `posts` : 
+- 
+
+
+
 ## Jekyllの設定ファイル
+
+#### サイト全体（_config.yaml）
+
 サイト全体の設定は`_config.yml`という名前のYAMLファイルに記述する．
 一般的な設定オプションを以下に示す．
 
@@ -70,6 +103,34 @@ Windowsに`Ruby`をインストールするため，[`RubyInstaller`](https://ru
   - 各種設定を行うことで，任意の他のテーマを使用することができる
 
 設定ファイルにカスタム変数を作成し、サイトのテンプレート、レイアウト、およびインクルードでそれを使用することができまる．例えば、`author_name`という変数を作成し、テンプレートで`{{ site.author_name }}`のように使用することができます。
+
+
+#### Markdown記事（YAML front matter）
+
+各記事の設定は`Markdown`上部に`YAML front matter`で記述する．
+`#`以降はコメントとして扱われる．
+
+```md
+---
+# YAML front matter
+layout: default
+title: Blogging Like a Hacker
+---
+  :
+記事本文
+  :
+```
+
+[](https://jekyllrb.com/docs/front-matter/)
+
+
+
+- `layout`
+- `title` : 記事のタイトル
+- `description` : 記事の説明文
+
+
+
 
 
 ## 静的サイトの作成
@@ -99,6 +160,9 @@ jekyll new my-blog
 
 
 ## Tips
+
+#### execulete要素
+
 デフォルトでは、Jekyllでは以下に当てはまるファイルやフォルダをビルドしない．
 
 - /node_modules または /vendor フォルダーに配置されている
@@ -108,16 +172,6 @@ jekyll new my-blog
 
 これらのファイルの中に Jekyll で処理したいものがある場合、構成ファイルの include 設定を利用できる．
 
-## YAML front matter
-
-```
----
-layout: post
-title: Blogging Like a Hacker
----
-```
-
-[](https://jekyllrb.com/docs/front-matter/)
 
 
 ## テーマ
