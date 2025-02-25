@@ -92,7 +92,6 @@ using (var client = new HttpClient()) {
 
 ****
 ## 参考資料
-- [wiki: Hypertext Transfer Protocol](https://ja.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 - [qiita: System.Net.Http.HttpClientを使ってWeb APIとHTTP通信する方法](https://qiita.com/iwasiman/items/40775d66e2ad5a9613e3)
 - [qiita: C# 今更ですが、HttpClientを使う](https://qiita.com/rawr/items/f78a3830d894042f891b)
 - [zenn: HttpClientでAPIリクエストを送信する：StringContentとFormUrlEncodedContentの使い分け](https://zenn.dev/shimiyu/articles/2ba819632490a0)

@@ -1,7 +1,8 @@
 ﻿---
-title: "csharp DateTime構造体で日時を扱う"
+title: 【C#】DateTime構造体で日時を扱う
 tags:
-  - csharp
+  - C#
+  - DateTime
 updated_at: ''
 id: 88d3120f-1210-48f6-9e6c-a4c3b6543f4f
 ---
