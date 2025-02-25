@@ -1,11 +1,12 @@
 ---
 title: curlとncコマンドでHTTP通信をテストする
+Category: Misc
 tags:
   - HTTP
   - Linux
 ---
 
-## 
+HTTP通信を
 
 
 ## curlコマンド

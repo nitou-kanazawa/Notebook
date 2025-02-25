@@ -1,3 +1,83 @@
-theme: jekyll-theme-slate
-title: Nitous notes
+# -----------------------------------------------
+# 基本設定
+name: "Nitou`s Notes"
 description: 学習中の技術に関するメモや記録を残していく場所．
+url:   # サイトのURL（GitHub Pagesのデフォルトドメインを使うなら不要）
+baseurl: /notes # リポジトリ名
+
+
+# -----------------------------------------------
+# 記事
+
+defaults:
+  - scope:
+      path: ""  # 全てのファイル対象
+      type: "posts" # postsに適用
+    values:
+      layout: "post"
+      # date: "2000-01-01"
+      author: "nitou"
+
+
+# -----------------------------------------------
+# デザイン設定
+
+# アイコン
+avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png  # サイトのロゴ画像（300 × 300 px）
+favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png  # サイトのタブアイコン（推奨は64 × 64 px）
+
+# ナビゲーション
+navigation:
+  - name: HOME
+    url: /
+  - name: ABOUT
+    url: /about
+  - name: ARCHIVE
+    url: /archive
+  - name: TAGS
+    url: /tags
+
+# インデックス
+paginate: 8 # ページ毎の記事数
+excerpt_separator: <!-- more -->  # 記事の要約部の指定
+
+# フッター
+footer-text: 2024 - 2025 
+
+
+# -----------------------------------------------
+# 以下はテーマ用の設定（変更不要）
+
+permalink: /:title/
+paginate_path: /page:num/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

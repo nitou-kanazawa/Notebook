@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<!-- HEAD要素 -->
+{% include head.html %}
+
+
+<!-- BODY要素 -->
+
+<body>
+  <!--  -->
+  {% include nav.html %}
+
+  <!-- 目次 -->
+  {% if page.toc==true %}
+  <aside class="toc">
+    {% include toc.html html=content %}
+  </aside>
+  {% endif %}
+
+  <!-- メイン -->
+  <div id="main" role="main" class="wrapper-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+
+  {% include analytics.html %}
+</body>
+
+{% if page.toc==true %}
+<script>
+  document.getElementById("main").classList.add("withtoc");
+</script>
+{% endif %}
+
+<div class="wrapper-footer-mobile">
+  <footer class="footer">
+    {% include footer.html %}
+  </footer>
+
+</html>
