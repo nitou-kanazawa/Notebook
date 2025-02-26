@@ -1,16 +1,12 @@
 ---
-title: 20250113_unity_sqlite
+title: UnityでSqliteを使用する
+Category: Unity
 tags:
   - sqlite-net
-private: true
-updated_at: '2025-01-18T12:23:55+09:00'
 id: 6c771b3d3ebc1c1231c9
-organization_url_name: null
-slide: false
-ignorePublish: false
 ---
 
-## 概要
+.NET環境でSQLiteを扱うためのNugetパッケージ `SQLite-net`を導入して、Unity上で簡易的なデータベースを利用する．
 
 ## 導入
 

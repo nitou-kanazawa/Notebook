@@ -1,14 +1,11 @@
 ﻿---
-title: 【Win32】windows NtCreateFile関数
+title: Windows NtCreateFile関数
 tags:
   - WindowsAPI
-updated_at: ""
 id: 3c4a7d99-cb3b-4487-bb2c-61ec581f605a
 ---
 
-## 概要
-
-C#で`SMBファイル共有`関連のライブラリを利用する際に、`CreateFile()`でハンドルを取得する必要があった．このとき、
+C#で`SMBファイル共有`関連のライブラリを利用する際に、`CreateFile()`でファイルハンドルを取得する必要があった．このとき、操作に応じたパラメータ設定が上手くできずに結構ハマってしまったため、改めて調べてみる．
 
 ## Win32API
 

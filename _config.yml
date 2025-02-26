@@ -3,7 +3,7 @@
 name: "Nitou`s Notes"
 description: 学習中の技術に関するメモや記録を残していく場所．
 url:   # サイトのURL（GitHub Pagesのデフォルトドメインを使うなら不要）
-baseurl: /notes # リポジトリ名
+baseurl: /Notebook # リポジトリ名
 
 
 # -----------------------------------------------

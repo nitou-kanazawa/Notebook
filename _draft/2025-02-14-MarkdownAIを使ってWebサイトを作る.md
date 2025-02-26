@@ -1,13 +1,11 @@
 ﻿---
 title: MarkdownAIを使ってWebサイトを作る
+Category: AI
 tags:
   - Markdown
   - AI
-updated_at: ""
 id: 87e85dcc-952d-42c8-9c8a-e9b291b92850
 ---
-
-## 概要
 
 以下のアドベントカレンダーで`Markdown AI`の存在を知った．記事を参考に簡単な Web サイトの作成まで試してみようと思う．
 
