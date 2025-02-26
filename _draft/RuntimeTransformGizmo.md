@@ -14,6 +14,18 @@ tags:
 - [Forum](https://discussions.unity.com/t/runtime-transform-gizmos-move-rotate-scale-universal-scene-gizmo-navigation-camera/714712)
 - [Video Tutorials](https://www.youtube.com/watch?v=5i2m550eFyg&list=PLPwpt1oIEdwAY_Qo6fczi6qTiUjCMZBW1)
 
+#### GizmoBehaviour 
+
+RTGでは全ての
+
+```cs
+Gizmo gizmo = RTGizmoEngine.Get.CreateGizmo();
+MoveGizmo moveGizmoBhv = gizmo.AddBehaviour<MoveGizmo>();
+ObjectTransformGizmo transformGizmoBhv = gizmo.AddBehaviour<ObjectTransformGizmo>();
+transformGizmoBhv.SetTransformChannelFlags(ObjectTransformGizmo.Channels.Position);
+```
+
+
 ## 使い方
 
 
