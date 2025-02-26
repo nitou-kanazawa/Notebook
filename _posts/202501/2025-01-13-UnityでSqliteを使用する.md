@@ -2,7 +2,9 @@
 title: UnityでSqliteを使用する
 Category: Unity
 tags:
-  - sqlite-net
+  - C#
+  - .NET
+  - SQLite
 id: 6c771b3d3ebc1c1231c9
 ---
 
