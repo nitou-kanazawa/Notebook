@@ -1,6 +1,6 @@
 ﻿---
 title: DataTime型の変換
-Category: C#
+category: C#
 tags:
   - C#
 id: ec0dda1c-2ffe-46e7-819e-0d5af6bb9dfb

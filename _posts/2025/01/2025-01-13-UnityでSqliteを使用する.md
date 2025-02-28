@@ -1,6 +1,6 @@
 ---
 title: UnityでSqliteを使用する
-Category: Unity
+category: Unity
 tags:
   - C#
   - .NET

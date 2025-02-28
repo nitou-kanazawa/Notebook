@@ -1,6 +1,6 @@
 ﻿---
 title: CalutureInfo型
-Category: C#
+category: C#
 tags:
   - C#
   - Localize
