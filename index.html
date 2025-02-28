@@ -50,7 +50,7 @@ layout: default
   {% unless post.pinned %}
   <article class="post">
     <h1>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">【{{ post.category }}】{{ post.title }}</a>
     </h1>
 
     <div clsss="meta">
@@ -79,6 +79,7 @@ layout: default
   {% endunless %}
   {% endfor %}
 </div>
+
 
 <!-- ページ遷移 -->
 <div class="pagination">

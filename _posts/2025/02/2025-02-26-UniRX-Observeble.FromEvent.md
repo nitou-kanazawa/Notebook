@@ -1,5 +1,5 @@
 ---
-title: UniRX Observeble.FromEvent
+title: UniRx Observeble.FromEvent
 category: Unity
 tags:
   - Unity
