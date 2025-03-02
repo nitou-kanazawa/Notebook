@@ -1,17 +1,9 @@
 ﻿---
-title: "web WikipediaのAPIwo"
+title: WikipediaのAPI
 tags:
-  - web
-updated_at: ''
-id: d013693e-daea-4c34-8c9f-45330bfd1ba0
+  - Web
+  - WebAPI
 ---
-
-- [Wipediaに用意されているAPI](#wipediaに用意されているapi)
-- [Wikimedia REST API](#wikimedia-rest-api)
-- [](#)
-- [参考](#参考)
-
-
 
 ## Wipediaに用意されているAPI
 Wikipediaには以下の3種類のAPIがあるらしい．

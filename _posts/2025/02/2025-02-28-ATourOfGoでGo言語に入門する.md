@@ -57,6 +57,59 @@ func foo(){ }
 
 #### Variables
 
+`var`ステートメントはパッケージ，または関数で利用できる．
+
+```go
+var c, python
+```
+
+
+#### Function
+
+関数は以下のように`func`キーワードを用いて宣言される．
+
+```
+func メソッド名(引数) 返り値 { ... }
+```
+
+
+```go
+func add(x int, y int) int {
+  return x + y
+}
+
+// ※引数が同じ型の場合は，省略可能
+func add(x, y int) int {
+  return x + y
+}
+```
+  
+C構文との違いとして，「返り値が変数名の後ろにあること」や「返り値は複数指定できること」などに注意が必要
+
+```go
+// 返り値がない場合
+func hello() {
+  fmt.PrintIn("Hello world")
+}
+
+// 返り値が複数の場合
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
+// ※返り値に名前をつけることもできる
+func split(sum int) (x, y int) {
+	x = sum * 4 / 9
+	y = sum - x
+	return        // "naked" return 
+}
+```
+
+Goで型がこのように宣言される理由は，記事[「Go's declaration syntax」](https://go.dev/blog/declaration-syntax) を参照．
+
+
+#### Variables
+
 #### 
 
 #### 
