@@ -1,5 +1,6 @@
 ﻿---
 title: WikipediaのAPI
+category: Web
 tags:
   - Web
   - WebAPI
