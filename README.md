@@ -20,9 +20,3 @@ toc: true
 
 記事本文
 ```
-
-按照标签和日期查看博文归档。请查看/tags 和/archive 页面。
-
-链接博客主的社交媒体。请在_config.yml中填写。
-
-支持Disqus和Gitalk两种评论区。请在_config.yml中设置。
