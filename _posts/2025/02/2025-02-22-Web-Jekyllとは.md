@@ -8,25 +8,6 @@ tags:
 id: e3ae5516-8075-4dd0-b368-8819db6ff114
 ---
 
-## 目次 
-- [目次](#目次)
-- [Jekyllとは](#jekyllとは)
-- [Jekyllの導入](#jekyllの導入)
-    - [](#)
-- [JekyllのCLIコマンド](#jekyllのcliコマンド)
-- [Jekyllプロジェクトのディレクトリ構成](#jekyllプロジェクトのディレクトリ構成)
-- [Jekyllの設定ファイル](#jekyllの設定ファイル)
-    - [サイト全体（\_config.yaml）](#サイト全体_configyaml)
-    - [Markdown記事（YAML front matter）](#markdown記事yaml-front-matter)
-- [静的サイトの作成](#静的サイトの作成)
-- [Tips](#tips)
-    - [execulete要素](#execulete要素)
-- [テーマ](#テーマ)
-- [](#-1)
-- [参考資料](#参考資料)
-
-
-## Jekyllとは
 `Jekyll(ジキル)`は`Ruby`で開発されている静的サイトジェネレータ．
 データベースを必要とせず、WordPressのようなコンテンツ管理システムを使用することなく、個人ブログ、ポートフォリオサイト、ドキュメントサイトなど、様々なタイプの静的サイトを構築することが可能．
 
