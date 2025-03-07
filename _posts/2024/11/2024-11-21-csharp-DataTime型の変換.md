@@ -6,19 +6,6 @@ tags:
 id: ec0dda1c-2ffe-46e7-819e-0d5af6bb9dfb
 ---
 
-## 目次
-- [目次](#目次)
-- [DateTime型 → String型](#datetime型--string型)
-    - [フォーマット指定（日付）](#フォーマット指定日付)
-    - [フォーマット指定（時間）](#フォーマット指定時間)
-    - [フォーマット指定（その他）](#フォーマット指定その他)
-- [DateTime型 → String型（和暦）](#datetime型--string型和暦)
-- [DateTime型 → 数値型（int, long）](#datetime型--数値型int-long)
-- [int型 → DateTime型](#int型--datetime型)
-- [参考資料](#参考資料)
-
-****
-
 ## DateTime型 → String型
 
 文字列への変換は`dateTime.ToString(string format)`を使用する．
