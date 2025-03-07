@@ -2,6 +2,7 @@
 title: Windows NtCreateFile関数
 category: Misc
 tags:
+  - Windows
   - WinAPI
 id: 3c4a7d99-cb3b-4487-bb2c-61ec581f605a
 ---

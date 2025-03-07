@@ -1,9 +1,9 @@
 ﻿---
-title: 【C#】OpenWeatherAPIで天気予報を取得する
+title: OpenWeatherAPIで天気予報を取得する
+category: Web
 tags:
-  - C#
   - WebAPI
-updated_at: ''
+  - C#
 id: a2e89bb6-4427-41ce-94d2-63ed45ba3eab
 ---
 

@@ -1,15 +1,14 @@
 ﻿---
-title: Httpを理解する -Httpとは？-
+title: HTTPを理解する -HTTPとは？-
 category: Web
 tags:
-  - Web
-  - Http
+  - HTTP
 id: 94a2dfac-8ffe-40af-973e-9158b1ee13c1
 ---
 
-## Httpとは
+## HTTPとは
 
-`Http(Hypertext Transfer Protocol)`はアプリケーション層の通信プロトコル．
+`HTTP(Hypertext Transfer Protocol)`はアプリケーション層の通信プロトコル．
 
 
 - クライアントリクエスト＆サーバーレスポンス形式で通信を行う．
@@ -17,7 +16,7 @@ id: 94a2dfac-8ffe-40af-973e-9158b1ee13c1
 
 ## Httpの基本構成
 
-Httpの主な構成要素は以下の通りです。
+`HTTP`の主な構成要素は以下の通りです。
 
 1. リクエストメッセージ
    - クライアントから送り出される記号串のメッセージ。

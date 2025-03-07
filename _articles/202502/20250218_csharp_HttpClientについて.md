@@ -1,16 +1,16 @@
 ﻿---
-title: 【C#】HttpClientについて
+title: HttpClientについて
+category: C#
 tags:
   - C#
-  - Http
-updated_at: ''
+  - HTTP
 id: dfe102d6-0d86-4205-8f32-2388dee20941
 ---
 
 普段，なんとなくで使用しているHttpClient関連について，学びなおそうと思う．
 
 ****
-## Http
+## HTTP
 
 #### 概要
 
@@ -18,7 +18,7 @@ id: dfe102d6-0d86-4205-8f32-2388dee20941
 - クライアントリクエスト＆サーバーレスポンス形式で通信を行う．
 - ステートレスであるため，リクエスト間に状態を保持しない．
 
-#### Httpの構造
+#### HTTPの構造
 
 **リクエスト**
 - メソッド（GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS など）

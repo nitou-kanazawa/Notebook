@@ -1,4 +1,9 @@
-
+---
+title: HTTP Cookie
+category: Web
+tags:
+  - HTTP
+---
 
 ## クッキーの仕組み
 

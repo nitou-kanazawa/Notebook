@@ -1,5 +1,6 @@
 ﻿---
-title: 【GitHub】GitリポジトリでのMarkdown管理に関するメモ
+title: GitリポジトリでのMarkdown管理に関するメモ
+category: Git
 tags:
   - GitHub
 updated_at: 

@@ -1,8 +1,9 @@
 ﻿---
-title: 【Unity】ToggleGroupのイベントをUniRxで監視する
+title: ToggleGroupのイベントをUniRxで監視する
+category: Unity
 tags:
   - Unity
-updated_at: ''
+  - UniRx
 id: bb9116d2-3c7d-4abc-86e1-87cab997b9cf
 ---
 

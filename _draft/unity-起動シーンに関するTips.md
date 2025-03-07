@@ -1,6 +1,6 @@
 ---
 title: 起動シーンに関するTips
-Category: Unity
+category: Unity
 tags:
   - Unity
   - Scene

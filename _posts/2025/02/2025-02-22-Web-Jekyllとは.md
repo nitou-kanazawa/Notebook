@@ -2,7 +2,6 @@
 title: Jekyllとは
 category: Web
 tags:
-  - Web
   - Jekyll
   - Ruby
 id: e3ae5516-8075-4dd0-b368-8819db6ff114

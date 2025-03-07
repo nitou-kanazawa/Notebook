@@ -1,6 +1,6 @@
 ---
 title: EditorSceneManagerクラス
-Category: Unity
+category: Unity
 tags:
   - Unity
   - Scene

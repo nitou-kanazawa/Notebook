@@ -1,10 +1,10 @@
 ﻿---
-title: 【Unity】 WebGLプラグイン
+title: WebGLプラグイン
+category: Unity
 tags:
   - Unity
   - Plugin
   - WebGL
-updated_at: ""
 id: e81fda93-d3d7-4e1d-beae-765b90d2fb58
 ---
 

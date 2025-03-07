@@ -1,9 +1,9 @@
 ﻿---
-title: 【.NET】.NET Standard"
+title: .NET Standard"
+category: C#
 tags:
   - .NET
   - C#
-updated_at: ""
 id: c89f214b-24b5-4c04-891f-08fabaaa7613
 ---
 

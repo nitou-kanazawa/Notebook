@@ -1,6 +1,6 @@
 ﻿---
 title: MarkdownAIを使ってWebサイトを作る
-Category: AI
+category: AI
 tags:
   - Markdown
   - AI

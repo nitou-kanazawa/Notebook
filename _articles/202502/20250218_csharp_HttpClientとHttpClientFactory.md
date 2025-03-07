@@ -1,8 +1,9 @@
 ﻿---
-title: 【C#】HttpClientとHttpClientFactory
+title: HttpClientとHttpClientFactory
+category: C#
 tags:
   - C#
-  - Http
+  - HTTP
 updated_at: ''
 id: 288f9f7c-1cf9-45fd-b37b-88d482084c65
 ---

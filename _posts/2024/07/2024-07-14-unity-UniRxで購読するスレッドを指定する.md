@@ -1,16 +1,16 @@
 ﻿---
-title: 【Unity】 UniRxで購読するスレッドを指定する
+title: UniRxで購読するスレッドを指定する
+category: Unity
 tags:
   - Unity
   - UniRx
-updated_at: ""
+  - 非同期
 id: 523238d0-4834-4046-b140-0439d040b7c5
 ---
 
 ## 概要
 
-Unity の API はメインスレッド上でしか呼び出せないという制限がある．（UnityAPI がスレッドセーフな実装ではないため）
-
+Unity API はメインスレッド上でしか呼び出せないという制限がある．（UnityAPI がスレッドセーフな実装ではないため）
 また、Subscribe に渡した関数は基本的に IObserver.OnNext を実行したスレッド上で実行される．
 
 ## UniRx で指定できるスケジューラー

@@ -1,8 +1,8 @@
 ﻿---
-title: 【C#】 record型に関するメモ
+title: record型に関するメモ
+category: C#
 tags:
   - C#
-updated_at: ""
 id: 90e26aac-e5b7-47ba-93d9-eda36ae7fc10
 ---
 

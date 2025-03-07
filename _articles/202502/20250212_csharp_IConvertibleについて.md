@@ -1,5 +1,6 @@
 ﻿---
-title: 【C#】IConvertibleについて
+title: IConvertibleについて
+category: C#
 tags:
   - C#
 updated_at: ""

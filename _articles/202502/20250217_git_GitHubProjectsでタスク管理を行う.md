@@ -1,5 +1,6 @@
 ﻿---
-title: 【GitHub】 GitHubProjectsでタスク管理を行う
+title: GitHubProjectsでタスク管理を行う
+category: Git
 tags:
   - GitHub
 updated_at: ''

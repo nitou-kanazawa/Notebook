@@ -1,9 +1,9 @@
 ﻿---
-title: 【C#】ファイル操作関連のTips
+title: ファイル操作関連のTips
+category: C#
 tags:
   - C#
   - IO
-updated_at: ''
 id: 1a7736c1-41bd-41bb-8540-462045c68de5
 ---
 
