@@ -1,10 +1,9 @@
 ---
-title: 【GitHub】GitHub Actions で使用できるイベント
+title: GitHub Actions で使用できるイベント
+category: Git
 tags:
   - GitHub
   - CICD
-updated_at: "2025-01-18T12:23:55+09:00"
-id:
 ---
 
 ## GitHub イベント一覧
