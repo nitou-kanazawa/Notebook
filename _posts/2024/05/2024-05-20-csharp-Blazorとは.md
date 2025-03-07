@@ -32,22 +32,11 @@ id: b87da14e-4cd7-4cb3-b19c-d23efe8686e1
 | **Blazor WebAssembly** | - WebAssembly上でC#コードを実行．<br>- クライアントサイドで動作するのでオフラインでも動くが、初回ロードが重い． |
 
 
+## Blazorの基本コード例
 
+`razor`ファイルでは以下のように
 
-
-
-
-##
-
-## 参考資料
-
-- [zenn: .NET8でのBlazorを整理整頓して理解しよう](https://zenn.dev/microsoft/articles/blazor-dotnet8-all)
-- []()
-- []()
-
-
-### **Blazorの基本コード例**
-#### **シンプルなカウンターコンポーネント**
+**シンプルなカウンターコンポーネント**
 ```razor
 @page "/counter"
 
@@ -69,7 +58,20 @@ id: b87da14e-4cd7-4cb3-b19c-d23efe8686e1
 - `@onclick="Increment"` → ボタンがクリックされたら `Increment` メソッドを実行
 - `@code { }` → C#コードを記述
 
+
+## Blazorを始める
+```
+dotnet new blazorwasm -o BlazorApp1
+cd BlazorApp1
+dotnet run
+```
+
+`https:localhost:5001`にアクセスする
+
+
 ---
+
+## まとめ
 
 ### **Blazorのメリット**
 ✅ **C#だけでフルスタック開発** → フロントエンドとバックエンドの言語を統一  
@@ -84,28 +86,8 @@ id: b87da14e-4cd7-4cb3-b19c-d23efe8686e1
 
 ---
 
-### **Blazorはどんな場面で使うべき？**
-- **C#/.NETの知識があり、フロントエンドもC#で書きたい**
-- **社内ツールや管理画面など、.NET環境のWebアプリを作りたい**
-- **JavaScriptをあまり書きたくないが、Webアプリを作りたい**
+## 参考資料
 
----
-
-### **Blazorを試してみるには？**
-Blazorプロジェクトの作成:
-```sh
-dotnet new blazorwasm -o MyBlazorApp
-cd MyBlazorApp
-dotnet run
-```
-`http://localhost:5000` にアクセスすれば動作確認できます。
-
----
-
-### **まとめ**
-- **BlazorはC#でWebアプリが作れるフレームワーク**
-- **Blazor Server（サーバー処理）と Blazor WebAssembly（クライアント処理）**
-- **コンポーネントベースで開発可能**
-- **.NET開発者には便利だが、JavaScriptエコシステムと比較するとまだ発展途上**
-
-C#メインで開発しているなら、試してみる価値アリです！
+- [MS: ASP.NET Core Blazor](https://learn.microsoft.com/ja-jp/aspnet/core/blazor/?view=aspnetcore-9.0)
+- [zenn: .NET8でのBlazorを整理整頓して理解しよう](https://zenn.dev/microsoft/articles/blazor-dotnet8-all)
+- [qiita: とても簡単にBlazorWebAppの特徴](https://qiita.com/YouKnow/items/b350e7bbbb54372e057d)
