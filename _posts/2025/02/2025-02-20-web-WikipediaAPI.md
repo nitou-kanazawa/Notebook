@@ -5,6 +5,8 @@ tags:
   - WebAPI
 ---
 
+<!-- more -->
+
 ## Wipediaに用意されているAPI
 Wikipediaには以下の3種類のAPIがあるらしい．
 - MediaWiki 操作 API
