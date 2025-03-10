@@ -1,5 +1,6 @@
 ﻿---
-title: 【Swift】 preconditionとassertによるエラー処理
+title: preconditionとassertによるエラー処理
+category: Swift
 tags:
   - Swift
 updated_at: ''

@@ -1,5 +1,6 @@
 ﻿---
-title: 【Swift】NotificationCenterでオブジェクト間の通知を行う
+title: NotificationCenterでオブジェクト間の通知を行う
+category: Swift
 tags:
   - Swift
   - SwiftUI
