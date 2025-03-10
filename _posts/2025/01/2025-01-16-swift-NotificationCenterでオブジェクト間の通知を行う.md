@@ -8,6 +8,8 @@ updated_at: ''
 id: cb1d8c49-d3fb-4f2b-a5eb-d00c9d52396d
 ---
 
+<!-- more -->
+
 ## 概要
 
 ## NotificationCenterとは
