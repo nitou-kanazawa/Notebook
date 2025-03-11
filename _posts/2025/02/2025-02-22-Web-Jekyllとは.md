@@ -166,5 +166,4 @@ jekyll new my-blog
 - [wiki: Jekyll](https://ja.wikipedia.org/wiki/Jekyll)
 - [_: Jekyllで静的サイトを構築する方法](https://kinsta.com/jp/blog/jekyll-static-site/)
 - [_: Jekyllとはなにか](https://www.codegrid.net/articles/jekyll-1/)
-- []()
-
+- [_: URLs and links in Jekyll](https://mademistakes.com/mastering-jekyll/how-to-link/)
