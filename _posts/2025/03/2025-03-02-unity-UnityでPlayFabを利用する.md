@@ -114,7 +114,10 @@ using UnityEngine;
 public class PlayFabLogin : MonoBehaviour {
 
     public void Start() {
-        var request = new LoginWithCustomIDRequest { CustomId = "GettingStartedGuide", CreateAccount = true};
+        var request = new LoginWithCustomIDRequest { 
+          CustomId = "GettingStartedGuide", 
+          CreateAccount = true
+        };
         PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
     }
 
@@ -134,6 +137,17 @@ Successのコールバックが実行されれば，PlayFabに正常にログイ
 
 >![]
 > 上記の`CustomID`を使用するログイン方法はモバイルでは利用できない．モバイルタイトルのログインを実装するには、`LoginWithAndroidDeviceID`，`LoginWithIOSDeviceID`，または`LoginWithFacebook`などのソーシャル ログイン形式のいずれかを使用する必要がある．
+
+
+
+## PlayFab API
+
+|  名称  |  用途  |
+|-------------------|---------------------------------|
+| PlayFabClient API | クライアント権限で実行するAPI． |
+| PlayFabServer API | サーバー権限で実行するAPI．一部はクライアントからも実行可能． |
+| PlayFabAdmin API  | 管理者権限で実行するAPI．ほぼ使わない．|
+
 
 
 ## 参考資料
