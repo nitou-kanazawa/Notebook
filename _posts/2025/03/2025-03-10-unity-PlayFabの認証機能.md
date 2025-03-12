@@ -4,7 +4,6 @@ category: Unity
 tags:
   - Unity
   - PlayFab
-  - BaaS
 ---
 
 `PlayFab`でのユーザ認証には「匿名ログイン」と「復旧可能ログイン」の2種類がある．
