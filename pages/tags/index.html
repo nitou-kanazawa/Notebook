@@ -10,9 +10,9 @@ permalink: /tags/
 
 <div class="tags">
 
+  <!-- タグ一覧 -->
   <ul class="label">
-    {% assign sorted_tags = site.tags | sort: "last" | reverse %}
-    {% for tag in sorted_tags %}
+    {% for tag in site.tags %}
     <li>
       <a href="#{{ tag[0] }}">
         <span>{{ tag[0] }}</span>
@@ -22,7 +22,8 @@ permalink: /tags/
     {% endfor %}
   </ul>
 
-  {% for tag in sorted_tags %}
+  <!-- タグ毎の記事 -->
+  {% for tag in site.tags %}
   <h2 id="{{ tag[0] }}">
     {{ tag[0] }}
   </h2>
