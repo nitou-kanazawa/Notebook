@@ -105,6 +105,11 @@ connection.stateUpdateHandler = {(state) in
 connection.start(queue: .global(qos: .userInitiated))
 ```
 
+#### タイムアウト処理の追加
+
+TCPソケット通信を担っている`NWConnection`のインスタンスにタイムアウト設定を行う必要がある．
+
+
 #### SMBプロトコルのリクエスト
 
 リクエストの種類は18種類．
