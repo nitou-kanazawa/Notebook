@@ -58,7 +58,14 @@ extension CardView {
 ## SF symbols
 
 
+
+
 ## 参考資料
 
 - [Apple: ](https://developer.apple.com/videos/play/wwdc2019/226)
 - [github: mixigroup/ios-swiftui-training](https://github.com/mixigroup/ios-swiftui-training/blob/session-3.1/README.md)
+
+
+## その他
+
+- [_: アニメーションAPIのすべて by 岸川克己](https://fortee.jp/iosdc-japan-2022/proposal/517cb156-3905-4dd7-b666-d2200049d822)
