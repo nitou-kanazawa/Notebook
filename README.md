@@ -1,5 +1,5 @@
 
-[リンク](https://nitou-kanazawa.github.io/Notebook/)
+[サイトリンク](https://nitou-kanazawa.github.io/Notebook/)
 
 
 ## 記事の作成

@@ -25,7 +25,7 @@ tags:
 #### site
 `_config.yml` の設定やサイト全体の情報を取得できる．
 
-```liquid
+```
 {{ site.title }}
 {{ site.url }}
 {{ site.posts }}
@@ -40,7 +40,7 @@ tags:
 #### page
 現在のページに関する情報を取得できます。
 
-```liquid
+```
 {{ page.title }}
 {{ page.url }}
 {{ page.date }}
@@ -55,7 +55,7 @@ tags:
 ### post
 各投稿に関連する情報を取得できる．
 
-```liquid
+```
 {{ post.title }}
 {{ post.date }}
 {{ post.content }}
