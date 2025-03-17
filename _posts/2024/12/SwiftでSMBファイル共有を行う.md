@@ -139,13 +139,8 @@ TCPソケット通信を担っている`NWConnection`のインスタンスにタ
 - [note: M1登場以降 macOSのSMB実装がずっとやらかしている件](https://www.note.lespace.co.jp/n/n53b8d7135039)
 
 
-
-
 <!-- リンク -->
 
-
 [SMBファイル共有をSwiftで実装する by 岸川克己]: https://fortee.jp/iosdc-japan-2024/proposal/1b5e79c6-b5e2-4388-85f2-d0820c3174b4
-
-
 
 [SMBプロトコル仕様書]: https://learn.microsoft.com/ja-jp/openspecs/windows_protocols/ms-smb2/5606ad47-5ee0-437a-817e-70c366052962

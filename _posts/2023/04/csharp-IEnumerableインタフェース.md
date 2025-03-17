@@ -164,7 +164,7 @@ finally{
 }
 ```
 
-※`foreach`
+※`foreach`は糖衣構文
 
 
 #### yield構文

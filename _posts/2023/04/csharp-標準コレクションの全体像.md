@@ -47,6 +47,17 @@ Systm.Collections.IEnumerable <|-r- Systm.Collections.Generic.IEnumerable
 @enduml
 ```
 
+- `List<T>`
+- `LinkedList<T>`
+- `SortedList<T>`
+- `Stack<T>`
+- `Queue<T>`
+- `Dictionary<TKey,TValue>`
+- `SortedDictionary<TKey,TValue>`
+- `OrderedDictionary<TKey,Value>`
+- `HashSet<T>`
+- `SortedSet<T>`
+
 
 #### ICollection
 
@@ -107,7 +118,7 @@ namespace Systm.Collections {
 [`System.Collections.Frozen`][System.Collections.Frozen 名前空間]は
 
 ## 参考資料
-- []()
+- [MS: コレクションとデータ構造](https://learn.microsoft.com/ja-jp/dotnet/standard/collections/?redirectedfrom=MSDN)
 - [qiita: 意外と知らない！？ C#の便利なコレクション！](https://qiita.com/hiki_neet_p/items/75bf39838ce580cca92d)
 
 
