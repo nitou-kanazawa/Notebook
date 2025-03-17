@@ -83,7 +83,7 @@ CSS、JavaScript、画像などのアセットファイルを格納するディ�
 
 ## 参考資料
 - [qiita: Jekyll対応Liquid文法チートシート](https://qiita.com/mt_west/items/7a4f41c749ed582330e9)
-
+- [_: Jekyllを使った静的なWebサイト制作 基礎知識編](https://e-joint.jp/blog/321)
 
 <!-- リンク -->
 [ドキュメント: ディレクトリ構成]: https://jekyllrb-ja.github.io/docs/structure/
