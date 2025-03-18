@@ -125,13 +125,11 @@ Inspect.MemoryGraph(b);
 | `string`   | `System.String`  | 参照型     | - | 不変の文字列（UTF-16） |
 
 
-
 #### 
 
 ```cs
 
 ```
-
 
 
 ## 参考資料
